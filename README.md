@@ -30,41 +30,24 @@ Glide.with(this)
 #特性
 
 ##Image Resizing
-
-// Picasso
-.resize(300, 200);
-
 // Glide
 .override(300, 200);
 
 
 
 ##Center Cropping
-
-// Picasso
-.centerCrop();
-
 // Glide
 .centerCrop();
 
 
 
 ##Transforming
-
-// Picasso
-.transform(new CircleTransform())
-
 // Glide
 .transform(new CircleTransform(context))
 
 
 
 ##设置占位图或者加载错误图：
-
-// Picasso
-.placeholder(R.drawable.placeholder)
-.error(R.drawable.imagenotfound)
-
 // Glide
 .placeholder(R.drawable.placeholder)
 .error(R.drawable.imagenotfound)
